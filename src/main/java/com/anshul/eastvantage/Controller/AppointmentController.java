@@ -176,7 +176,7 @@ public class AppointmentController {
 		return "Appointment has been deleted with id:" + id;
 	}
 
-	// Method to display all exisy=ting records in specific date range
+	// Method to display all existing records in specific date range
 
 	@GetMapping("/displayBetweenDate")
 	public List<Appointment> displayBetweenDate(HttpServletRequest req) {
